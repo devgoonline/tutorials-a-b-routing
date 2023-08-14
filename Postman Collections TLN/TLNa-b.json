@@ -229,15 +229,16 @@
 	"auth": {
 		"type": "apikey",
 		"apikey": {
-			"key": "apiKey",
-			"value": "RVVfOTM1NTI0MzcxZDBkNGEyNzkzYTE1YTliODM5NmUxYTE6Yzg2YzY4NjYtMWRjYy00ZjcwLTk2M2EtOTMzNTI0NTQ5OWFi"
+			"in": "query",
+			"value": "RVVfOTM1NTI0MzcxZDBkNGEyNzkzYTE1YTliODM5NmUxYTE6Yzg2YzY4NjYtMWRjYy00ZjcwLTk2M2EtOTMzNTI0NTQ5OWFi",
+			"key": "apiKey"
 		}
 	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "ad63ff62-b9c1-4139-a057-08e7e8b96710",
+				"id": "d04ad515-30a3-44d3-b705-cd12d0a86d4c",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -247,7 +248,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "2033d25d-c754-4b9b-86a6-eabe0bc17975",
+				"id": "39d7c5d8-c059-49e4-a3b8-b6a960c49cc4",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -257,7 +258,7 @@
 	],
 	"variable": [
 		{
-			"id": "2cb70b50-ee1c-4184-b2b7-b515bb922f05",
+			"id": "fa09b21f-aed9-434f-bb8c-4c8273602333",
 			"key": "baseUrl",
 			"value": "https://api.myptv.com/routing/v1/routes"
 		}
