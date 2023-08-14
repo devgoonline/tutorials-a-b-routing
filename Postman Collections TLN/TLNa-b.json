@@ -226,11 +226,18 @@
 			"response": []
 		}
 	],
+	"auth": {
+		"type": "apikey",
+		"apikey": {
+			"key": "apiKey",
+			"value": "RVVfOTM1NTI0MzcxZDBkNGEyNzkzYTE1YTliODM5NmUxYTE6Yzg2YzY4NjYtMWRjYy00ZjcwLTk2M2EtOTMzNTI0NTQ5OWFi"
+		}
+	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "8ec0e483-dc03-4231-9b02-0fd081f4ebd1",
+				"id": "ad63ff62-b9c1-4139-a057-08e7e8b96710",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -240,7 +247,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "c05929ea-6d94-4089-b9d8-1829cde79030",
+				"id": "2033d25d-c754-4b9b-86a6-eabe0bc17975",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -250,7 +257,7 @@
 	],
 	"variable": [
 		{
-			"id": "a4ed8b71-1619-414d-92db-8e1d077d39ae",
+			"id": "2cb70b50-ee1c-4184-b2b7-b515bb922f05",
 			"key": "baseUrl",
 			"value": "https://api.myptv.com/routing/v1/routes"
 		}
